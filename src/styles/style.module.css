@@ -1,0 +1,37 @@
+.Main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Main .Counter {
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+.Main .Current {
+  margin-bottom: 50px;
+}
+
+.Main .Btn {
+  display: inline-block;
+  background: #888;
+  color: white;
+  padding: 8px;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.Main .Btn:hover {
+  cursor: pointer;
+  background: #444;
+}
+
+.Main .Btn:first-child {
+  margin-right: 50px;
+}
+
+.Main .BtnBar {
+  margin-bottom: 50px;
+}
